@@ -1,4 +1,4 @@
-1. While running the MCP server in 'stdio' mode with `mcp.run('stdio')`, we need to first initialize the server
+1. While running the MCP server in 'stdio' mode with `mcp.run('stdio')`, we need to first initialize the server (Only useful when directly sending queries manually through stdio (manually doing `uv run ....py`))
 
 ```json
 {

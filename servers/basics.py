@@ -100,5 +100,5 @@ def get_weather_data(address: str):
     
 if __name__ == '__main__':
     # print("Starting MCP server...")
-    # mcp.run(transport='stdio')
-    print(get_weather_data('China'))
+    mcp.run(transport='stdio')
+    # print(get_weather_data('Kolkata'))

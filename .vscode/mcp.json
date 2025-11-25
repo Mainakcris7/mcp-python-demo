@@ -1,0 +1,13 @@
+{
+	"servers": {
+		"demo-mcp": {
+			"type": "stdio",
+			"command": "uv",
+			"args": [
+				"run",
+				"servers\\basics.py"
+			]
+		}
+	},
+	"inputs": []
+}
